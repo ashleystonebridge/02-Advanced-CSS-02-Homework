@@ -216,6 +216,7 @@ li {
 button {
   font-size: 25px;
   border: none;
+  background-color: var(--outer-space);
 }
 
 button:hover {
