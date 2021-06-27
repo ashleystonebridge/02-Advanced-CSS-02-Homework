@@ -9,4 +9,80 @@ li {
 
 header {
     font-size: 4em;
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#Summary {
+    position: relative;
+}
+
+#pSummary {
+    left: 12em;
+    top: .5em;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+div {
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    left: 8.5em;
+    top: -.5em;
+}
+
+h3 {
+    position: absolute;
+    left: 13em;
+    top: 2em;
+}
+
+#contact-me {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    width: 15%
+}
+
+p {
+    position: absolute;
+    left: 36em;
+    top: 1em;
+}
+
+.absolute {
+    position: absolute;
+}
+
+button  {
+    font-size: .35em;
+}
+
+img {
+    width: 12em;
+}
+
+@media screen and (max-width: 992px) {
+    ul {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2, h3 {
+        font-size: 1em;
+    }
+    p {
+        display: none;
+    }
 }
