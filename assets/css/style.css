@@ -23,21 +23,25 @@ ul {
     position: relative;
 }
 
+p {
+    position: absolute;
+    left: 36em;
+    top: 1em;
+}
+
 #pSummary {
-    left: 12em;
-    top: .5em;
-    width: 50%;
-    font-size: 1.5em;
+    position: absolute;
 }
 
 div {
     position: relative;
+    overflow: auto;
 }
 
 h2 {
     position: absolute;
-    left: 8.5em;
-    top: -.5em;
+    left: 12em;
+    top: 3em;
 }
 
 h3 {
@@ -54,22 +58,13 @@ h3 {
     width: 15%
 }
 
-p {
-    position: absolute;
-    left: 36em;
-    top: 1em;
-}
-
-.absolute {
-    position: absolute;
-}
-
 button  {
     font-size: .35em;
 }
 
 img {
-    width: 12em;
+    width: 200px;
+    height: 190px;
 }
 
 @media screen and (max-width: 992px) {
@@ -79,10 +74,11 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-    h2, h3 {
-        font-size: 1em;
-    }
     p {
         display: none;
     }
 }
+
+/* .flex-container {
+    display: flex;
+} */
