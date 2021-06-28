@@ -2,14 +2,14 @@
     background-color: #CEC0E4;
 }
 :root {
-    --borderBottom: 3px purple solid;
+    --border: 3px purple solid;
 }
 
 header {
     font-size: 4em;
     display: flex;
     justify-content: space-between;
-    border-bottom: var(--borderBottom);
+    border-bottom: var(--border);
 }
 
 nav {
@@ -35,29 +35,29 @@ button  {
 }
 
 p {
-    position: absolute;
+    /* position: absolute; */
     left: 36em;
     top: 1em;
 }
 
-#pSummary {
+/* #pSummary {
     position: absolute;
-}
+} */
 
 div {
-    position: relative;
+    /* position: relative; */
     overflow: auto;
-    border-bottom: var(--borderBottom);
+    border-bottom: var(--border);
 }
 
 h2 {
-    position: absolute;
+    /* position: absolute; */
     left: 12em;
     top: 3em;
 }
 
 h3 {
-    position: absolute;
+    /* position: absolute; */
     left: 13em;
     top: 2em;
 }
@@ -67,7 +67,7 @@ h3 {
     bottom: 0;
     right: 0;
     font-size: 50px;
-    width: 15%
+    border: var(--border);
 }
 
 img {
@@ -76,8 +76,8 @@ img {
 }
 
 @media screen and (max-width: 992px) {
-    ul {
-        position: static;
+    li {
+        display: inline;
     }
 }
 
@@ -87,7 +87,7 @@ img {
     }
 }
 
-/* .flex-container {
+.flex-container {
     display: flex;
-} */
+}
 
