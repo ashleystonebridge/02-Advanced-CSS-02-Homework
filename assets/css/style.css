@@ -1,24 +1,36 @@
 * {
-    background-color: #CEC0E4;
+    background-color: #eeeaf3;
 }
+
 :root {
     --border: 3px purple solid;
+    --background: #CEC0E4;
 }
 
 header {
-    font-size: 4em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    background-color: var(--background);
     border-bottom: var(--border);
+}
+
+#name {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 nav {
     padding: 0;
+    margin: 0;
+    background-color: var(--background);
 }
 
 ul {
-    margin: 0;
     padding: 0;
+    background-color: var(--background);
 }
 
 li {
@@ -27,47 +39,47 @@ li {
 }
 
 button  {
-    font-size: .35em;
+    font-size: 1.5em;
+    border: purple 1px dotted;
+    background-color: var(--background);
 }
 
-#Summary {
-    position: relative;
+button:hover {
+    font-weight: bold;
 }
 
-p {
-    /* position: absolute; */
-    left: 36em;
-    top: 1em;
-}
-
-/* #pSummary {
-    position: absolute;
-} */
-
-div {
-    /* position: relative; */
-    overflow: auto;
+h1 {
+    background-color: var(--background);
     border-bottom: var(--border);
 }
 
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
 h2 {
-    /* position: absolute; */
-    left: 12em;
-    top: 3em;
+    float: left;
 }
 
 h3 {
-    /* position: absolute; */
-    left: 13em;
-    top: 2em;
+    position: absolute;
 }
+
+/* p {
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
 
 #contact-me {
     position: fixed;
     bottom: 0;
     right: 0;
     font-size: 50px;
-    border: var(--border);
+    border: purple 1px dotted;
 }
 
 img {
@@ -76,18 +88,11 @@ img {
 }
 
 @media screen and (max-width: 992px) {
-    li {
-        display: inline;
-    }
+
 }
 
 @media screen and (max-width: 768px) {
-    p {
-        display: none;
-    }
+    
 }
 
-.flex-container {
-    display: flex;
-}
 
