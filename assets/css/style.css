@@ -53,20 +53,37 @@ h1 {
     border-bottom: var(--border);
 }
 
-div {
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
 }
 
-h2 {
+.flex-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* h3 {
+    float: right;
+} */
+
+.flex-text h3 {
+    margin-left: .6em;
+}
+
+/* h2 {
     float: left;
 }
 
 h3 {
     position: absolute;
-}
+} */
 
 /* p {
     position: absolute;
@@ -87,12 +104,12 @@ img {
     height: 190px;
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
 
 }
 
 @media screen and (max-width: 768px) {
     
-}
+} */
 
 
