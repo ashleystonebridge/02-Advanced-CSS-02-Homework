@@ -69,27 +69,9 @@ h1 {
     flex-direction: column;
 }
 
-/* h3 {
-    float: right;
-} */
-
 .flex-text h3 {
     margin-left: .6em;
 }
-
-/* h2 {
-    float: left;
-}
-
-h3 {
-    position: absolute;
-} */
-
-/* p {
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
 
 #contact-me {
     position: fixed;
